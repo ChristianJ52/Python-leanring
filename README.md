@@ -10,10 +10,10 @@ This is a continuous journey not a challenge with an end date and I’ll keep bu
 Each day has its own folder and Python file(s).  
 For example:
 
-- **Day 1** → Hello World + first Energy Calculator  
-- **Day 2** → Multi-Tool Building Engineering Program  
+- **Day 1** → Hello World & Energy Calculator  
+- **Day 2** → Building Engineering Tool  
 - **Day 3** → Multi-Tool Upgrade  
-- **Day 4** → Energy Usage Predictor  
-- **Day 5** → Portfolio Manager & Energy Analytics
+- **Day 4** → Multi-Tool with Reporting & Visualization  
+- **Day 5** → Building Portfolio Manager  
 
 - *(and continuing… no fixed end date — just ongoing progress)*   
