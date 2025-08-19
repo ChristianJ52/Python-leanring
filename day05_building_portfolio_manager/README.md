@@ -34,6 +34,7 @@ This script analyzes a small portfolio of buildings. It filters by city, compute
 
 Screenshot #1 — Average U-value
 <img width="851" height="332" alt="image" src="https://github.com/user-attachments/assets/1b087214-1d94-48aa-a1bc-7ee6396026ae" />
+
 I calculated the portfolio’s average U-value in two ways. First, a manual loop with running totals (clear and beginner-friendly). Then, a list comprehension with sum(). Using both methods was a way to double-check results and practice different coding styles.
 
 Screenshot #2 — City counts & largest presence
