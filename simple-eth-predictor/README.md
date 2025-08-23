@@ -42,6 +42,7 @@ Why it matters: Clean, time-indexed data is needed for any time-series model.
 Description: This block does a forward, time-ordered split (no shuffling) to avoid data leakage, builds a pipeline with StandardScaler → LinearRegression, and makes predictions on train and test. It then computes RMSE/MAE, an honest naïve baseline (“tomorrow = today”), the RMSE lift vs that baseline, and directional accuracy (did we get up/down right).
 
 -Glossary
+
 Candle / Kline — One time interval’s market record (Open, High, Low, Close, Volume).
 
 JSON — A simple text format APIs use to send data (lists/objects).
