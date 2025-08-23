@@ -43,17 +43,31 @@ Description: This block does a forward, time-ordered split (no shuffling) to avo
 
 -Glossary
 Candle / Kline — One time interval’s market record (Open, High, Low, Close, Volume).
+
 JSON — A simple text format APIs use to send data (lists/objects).
+
 DataFrame (pandas) — A table-like data structure for rows and columns.
+
 Data leakage — When future information sneaks into training and inflates results.
+
 Standardization — Rescaling features to mean 0 and std 1 (z-score scaling).
+
 Pipeline — A chained process (here: StandardScaler → LinearRegression).
+
 Linear Regression — A simple model that learns coefficients to predict a number.
+
 Naïve baseline — A yardstick prediction; here “tomorrow = today.”
+
 RMSE (Root Mean Squared Error) — Average error size with big mistakes penalized more; same units as price.
+
 MAE (Mean Absolute Error) — Average absolute error; easier to interpret, less harsh on outliers.
+
 RMSE lift — Baseline RMSE minus model RMSE; positive means the model beats the baseline.
+
 Moving average (MA) — Average price over the last k days (e.g., MA7 = 7-day average).
+
 Lag / Shift — Using previous values (e.g., lag-1 = yesterday); shift(-1) is tomorrow.
+
 Rolling window — A sliding window over recent data to compute stats repeatedly.
+
 NaN — “Not a Number”; a missing value that appears after rolling/shift operations.
